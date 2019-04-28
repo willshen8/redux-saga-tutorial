@@ -1,11 +1,18 @@
 {
-  "name": "redux-saga-tutorial",
+  "name": "redux-saga-learnings",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.3.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-redux": "^7.0.2",
+    "react-scripts": "3.0.0",
+    "reactstrap": "^8.0.0",
+    "redux": "latest",
+    "redux-saga": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
