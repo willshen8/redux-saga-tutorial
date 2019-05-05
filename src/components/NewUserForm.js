@@ -18,6 +18,7 @@ class NewUserForm extends Component{
             lastName: e.target.value
         });
     }
+
     handleSubmit = e => {
         e.preventDefault();
         this.props.onSubmit({
@@ -30,6 +31,7 @@ class NewUserForm extends Component{
             lastName: ''
         });
     };
+    
     render(){
         return (
             <Form onSubmit={this.handleSubmit}>
